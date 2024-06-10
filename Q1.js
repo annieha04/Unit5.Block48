@@ -1,14 +1,16 @@
 // Question 1:
 // Determine the validity of an input string s, which consists solely of the characters (, ), {, }, [, and ]. You need to check the following conditions: 
-
 //   The opening brackets: 
-
 //   - Must match with the corresponding closing brackets of the same type 
-  
 //   - Must be closed in the correct order 
-  
 //   - Should have a corresponding opening bracket of the same type
 
+// Input: s = "()" Output: true
+// const openBrackets = ["(", "{", "["];
+// const closingBrackets = [")", "}", "]"];
+// "()"
+// "{}"
+// "[]"
 
 function isValid(s) {
     const stack = [];
